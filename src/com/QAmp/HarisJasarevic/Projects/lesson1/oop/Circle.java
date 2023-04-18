@@ -6,7 +6,7 @@ public class Circle extends Shape {
 
     private final double radius;
 
-    public Circle (final double radius) {
+    public Circle(final double radius) {
         this.radius = radius;
     }
 
@@ -14,7 +14,6 @@ public class Circle extends Shape {
     public double getArea() {
         return radius * radius * Math.PI;
     }
-
 
 
 }
